@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  background-image: url("https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2020/10/paperwork_jpg_yezLKhol.jpg");
+  background-color: #cccccc;
+  height: 865px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.mr-auto {
+  padding: 5px;
+  justify-content: center;
+}
+
+.text-center {
+  background: linear-gradient(to bottom, white, rgb(102, 202, 197));
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  font-weight: bold;
+  font-family: monospace;
+}
