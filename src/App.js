@@ -1,5 +1,6 @@
 import "./styling/App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 import { Navigator } from "./styling/Navbar";
 import { Home } from "./component/Home";
 import { Admission } from "./component/Admission";
@@ -9,8 +10,8 @@ import Alumni from "./component/Alumni";
 function App() {
   return (
     <Router>
-      <Navigator />
       <div className="App">
+        <Navigator />
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/admission" component={Admission} />
