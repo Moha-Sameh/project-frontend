@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
 body {
-    background: linear-gradient(to bottom, DeepSkyBlue, #ffdab9);
+    background: linear-gradient(to bottom, Azure, #59ab95);
     background-color: #cccccc;
     background-position: fixed;
     background-size: cover;

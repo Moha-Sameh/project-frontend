@@ -1,4 +1,5 @@
 import React from "react";
+import styled from "styled-components";
 import admissionStore from "../dataStore/admissionStore";
 
 export const Admission = () => {
@@ -22,7 +23,7 @@ export const Admission = () => {
     <form onSubmit={handleSubmit}>
       <div className="form-group row">
         <div className="col-4">
-          <input
+          <Input
             type="text"
             className="form-control"
             placeholder="First Name"
@@ -31,7 +32,7 @@ export const Admission = () => {
           />
         </div>
         <div className="col-4">
-          <input
+          <Input
             type="text"
             className="form-control"
             placeholder="Last Name"
@@ -42,7 +43,7 @@ export const Admission = () => {
       </div>
       <div className="form-group row">
         <div className="col-4">
-          <input
+          <Input
             type="text"
             className="form-control"
             placeholder="Email"
@@ -51,7 +52,7 @@ export const Admission = () => {
           />
         </div>
         <div className="col-4">
-          <input
+          <Input
             type="text"
             className="form-control"
             placeholder="Contact Number"
@@ -62,7 +63,7 @@ export const Admission = () => {
       </div>
       <div className="form-group row">
         <div className="col-4">
-          <input
+          <Input
             type="text"
             className="form-control"
             placeholder="College"
@@ -70,8 +71,31 @@ export const Admission = () => {
             onChange={handleChange}
           />
         </div>
-        <button>Submit Application</button>
+        <Button>Submit Application</Button>
       </div>
     </form>
   );
 };
+
+const Input = styled.input`
+  background: linear-gradient(to right, white, #a9a9a9);
+
+  :hover {
+    background: linear-gradient(to left, #b0c4de, #a9a9a9);
+  }
+  :focus {
+    border: 2px solid saddlebrown;
+  }
+`;
+
+const Button = styled.button`
+  border-radius: 5px;
+  padding: 25px;
+  background-color: whitesmoke;
+  margin-left: 200px;
+  margin-top: 15px;
+
+  :hover {
+    background-color: yellow;
+  }
+`;

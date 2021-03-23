@@ -22,20 +22,18 @@ export const Home = () => {
         <Link to="/academic">
           <div className="container">
             <Img
-              src="https://images.theconversation.com/files/288077/original/file-20190814-136180-1ihzx3n.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip"
+              src="https://i.ytimg.com/vi/UL6DE6yrEyo/maxresdefault.jpg"
               alt="Avatar"
               className="Styleimg"
               style={{ width: "100%" }}
             />
-            <div className="middle">
-              <div className="text"> Academic </div>
-            </div>
+            <div className="middle"></div>
           </div>
         </Link>
         <Link to="/alumni">
           <div className="container">
             <Img
-              src="https://images.theconversation.com/files/288077/original/file-20190814-136180-1ihzx3n.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip"
+              src="https://ichef.bbci.co.uk/news/976/cpsprodpb/10F3/production/_112093340_graduation.jpg"
               alt="Avatar"
               className="Styleimg"
               style={{ width: "100%" }}

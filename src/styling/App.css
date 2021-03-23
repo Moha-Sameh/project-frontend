@@ -4,7 +4,7 @@
 }
 
 .text-center {
-  background: linear-gradient(to right, rgb(245, 202, 202), rgb(243, 232, 135));
+  background: linear-gradient(to right, white, rgba(145, 209, 211, 0.555));
   color: black;
   font-family: Verdana, Tahoma, sans-serif;
   width: 100%;
@@ -36,6 +36,7 @@
 }
 
 .Styleimg {
+  border-radius: 5%;
   opacity: 1;
   display: block;
   width: 100%;
@@ -63,8 +64,8 @@
 }
 
 .text {
-  background-color: #8a2be2;
   color: white;
-  font-size: 16px;
+  font-size: 50px;
+  font-family: sans-serif;
   padding: 16px 32px;
 }
